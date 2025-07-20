@@ -3,7 +3,7 @@ To address the challenges of detecting falls accurately and efficiently, this pr
 Figure 1:Flow Chart of Model Implementation
 1. Dataset Preparation and Model Training
 A well-labelled dataset consisting of "fall" and "non-fall" images was used for training the model.
-These images represented various human postures and scenarios [Figure 4] [Figure 5]. The dataset
+These images represented various human postures and scenarios . The dataset
 was uploaded to Edge Impulse Studio, a platform for building embedded machine learning models.
 Using its graphical tools, the dataset was split, pre-processed, and fed into a CNN-based model
 architecture.
@@ -19,7 +19,7 @@ checks whether the person is in a fall or non-fall posture.
  Libraries Used: OpenCV, NumPy, TensorFlow
 3.SMS Alert Integration with Twilio
 To enhance safety, the system monitors the duration of the fall condition. If the same "Fall"
-prediction persists continuously for more than 30 seconds, it sends an SMS alert [Figure 6] using
+prediction persists continuously for more than 30 seconds, it sends an SMS alert using
 the Twilio API to a pre-verified contact number.
  Condition Monitoring: Timer starts when fall is detected
  Alert Trigger: If fall persists >30 seconds
